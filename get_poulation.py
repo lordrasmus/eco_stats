@@ -25,9 +25,10 @@ def get_population( name ):
 
 timerange = get_data( "/datasets/timerange" )
 end_time = str( timerange[1] - 0.01 ) # genau die endzeit ergibt immer 0
-#pprint( end_time )
 
-print("Bison:  {0:6}".format( get_population( "Bison" ) ))
+
+
+#print("Bison:  {0:6}".format( get_population( "Bison" ) ))
 print("Elks:   {0:6}".format( get_population( "Elk" ) ))
 print("Hare:   {0:6}".format( get_population( "Hare" ) ))
 print("Turkey: {0:6}".format( get_population( "Turkey" ) ))
