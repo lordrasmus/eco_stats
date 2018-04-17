@@ -86,4 +86,4 @@ print_pops( ["Elk","Hare","Turkey","Wolf","Fox"] )
 
 print("-------------------------")
 
-print_pops( ["Wheat","Beets"] )
+print_pops( ["Wheat","Beets","Beans","Corn","Camas","Tomatoes"] )
