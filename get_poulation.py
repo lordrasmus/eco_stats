@@ -58,7 +58,7 @@ def print_pops( liste ):
 		#print("{0:8}  {1:6}".format( p + ":", ))
 
 	sys.stdout.write("\r\033[2K")
-	txt = "          "
+	txt = "            "
 	for t in timestamps:
 		if t == end_time:
 			txt += "{0:>8}".format( "now" )
@@ -69,7 +69,7 @@ def print_pops( liste ):
 
 	for p in pops:
 		txt = ""
-		txt += "{0:8}  ".format( p["NAME"] + ":" )
+		txt += "{0:10}  ".format( p["NAME"] + ":" )
 		for t in timestamps:
 			txt += "{0:>8}".format( p["VALUES"][t] )
 		print( txt )
